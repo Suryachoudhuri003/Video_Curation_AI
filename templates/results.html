@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Search Results</title>
+    <style>
+        /* Custom CSS styles */
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f5f5f5;
+            margin: 0;
+            padding: 0;
+        }
+
+        h1 {
+            color: #333;
+            text-align: center;
+            margin-top: 30px;
+        }
+
+        .videos {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            margin-top: 20px;
+        }
+
+        .video-item {
+            background-color: #fff;
+            border-radius: 5px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+            margin: 10px;
+            padding: 20px;
+            width: 300px;
+        }
+
+        .video-item h2 {
+            color: #333;
+            font-size: 1.5em;
+            margin-top: 0;
+        }
+
+        .video-item p {
+            color: #666;
+            margin-bottom: 10px;
+        }
+
+        .video-item a {
+            color: #007bff;
+            text-decoration: none;
+        }
+
+        .video-item a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <h1>Search Results</h1>
+    <div class="videos">
+        {% for video in videos %}
+            <div class="video-item">
+                <h2>{{ video[1] }}</h2> <!-- Title -->
+                <p>Category: {{ video[2] }}</p> <!-- Category -->
+                <p>Tags: {{ video[3] }}</p> <!-- Tags -->
+                <p>Timestamp: {{ video[4] }}</p> <!-- Timestamp -->
+                <p>File Path: {{ video[5] }}</p> <!-- File Path -->
+                <!-- Add more video details as needed -->
+            </div>
+        {% endfor %}
+    </div>
+</body>
+</html>
