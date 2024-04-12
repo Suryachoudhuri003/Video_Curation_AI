@@ -1,6 +1,6 @@
 import sys
 import numpy as np 
-sys.path.append('D:\\Desktop\\project')
+sys.path.append('') #Add path to the clone root folder
 from models.generative_ai_model import create_generative_ai_model
 from scripts.preprocess_data import preprocess_video_data
 
