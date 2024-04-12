@@ -1,5 +1,5 @@
 import sys
-sys.path.append('D:\\Desktop\\project')
+sys.path.append('') #Add path to the clone root folder
 import sqlite3
 import numpy as np
 from models.generative_ai_model import create_generative_ai_model
