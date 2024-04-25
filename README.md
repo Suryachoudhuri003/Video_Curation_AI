@@ -1,7 +1,7 @@
 # Video Curation AI
 
 ## Introduction
-VisualTech Innovations is developing a groundbreaking Video Curation AI project aimed at organizing and categorizing unstructured video data into a structured and searchable database. This visionary initiative tackles the formidable challenges posed by the ever-growing volumes of video content from diverse sources such as social media, digital archives, and surveillance feeds.
+I'm trying to develop a groundbreaking Video Curation AI project aimed at organizing and categorizing unstructured video data into a structured and searchable database. This visionary initiative tackles the formidable challenges posed by the ever-growing volumes of video content from diverse sources such as social media, digital archives, and surveillance feeds.
 
 ## Methodologies
 - **Generative AI Model**: Embarked on the pioneering development of a Generative AI model utilizing cutting-edge TensorFlow/Keras technology. This powerful model intelligently analyzes video data, discerning subjects, themes, and contexts, and categorizes them with remarkable accuracy.
